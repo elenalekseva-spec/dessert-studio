@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FAF5ED">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; font-src 'self'; style-src 'self'; script-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'; object-src 'none'">
+  <meta name="description" content="Корпусные десерты с нуля — очный мастер-класс с Олесей. 10 декабря 2026, 13:00–16:00. Кукмор, ул. Ленина, 34, кафе «Вершина». Учебный сайт с демо-регистрацией без оплаты.">
+  <title>Корпусные десерты с нуля — Dessert Studio</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/Prata-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="fonts/Manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержимому</a>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-flower" viewBox="0 0 32 32"><path d="M16 14c-9-12-15-1-6 3-13 4-3 14 4 5 1 14 14 8 8-2 13 3 13-10 2-9 6-12-7-15-8 3Z"/><circle cx="17" cy="17" r="3"/></symbol>
+    <symbol id="i-whisk" viewBox="0 0 32 32"><path d="m8 26 7-9m-5 7 7-9m-2 2C4 7 20-3 27 5s-5 20-12 12Zm1-1C14 10 19 4 25 5c1 6-4 12-9 11Z"/></symbol>
+    <symbol id="i-home" viewBox="0 0 32 32"><path d="m4 15 12-10 12 10M8 13v14h16V13M13 27v-9h6v9"/></symbol>
+    <symbol id="i-cake" viewBox="0 0 32 32"><path d="M5 17h22v11H5ZM8 17v-6h16v6M16 11V6m0-1V3M5 21c4 5 7-4 11 0s7-4 11 0"/></symbol>
+    <symbol id="i-star" viewBox="0 0 32 32"><path d="m16 3 4 8 9 2-6 7 1 9-8-4-8 4 1-9-6-7 9-2Z"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 11h18m-13 5h2m4 0h2"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v6l4 2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-screen" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="14" rx="2"/><path d="M8 22h8m-4-4v4m-2-13 5 2-5 3Z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Dessert Studio — главная"><svg class="brand-mark"><use href="#i-flower"/></svg><span>Dessert Studio<span class="brand-caption">Искусство в каждом десерте</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Открыть меню"><span></span><span></span></button>
+      <nav id="main-nav" aria-label="Основная навигация">
+        <a href="#about">О мастер-классе</a><a href="#program">Программа</a><a href="#speaker">Спикер</a><a href="#price">Стоимость</a><a href="#faq">FAQ</a>
+        <a class="button button-small nav-cta" href="#registration">Записаться</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">Корпусные<br> десерты с нуля</h1>
+        <p class="hero-description">Научитесь создавать изысканные десерты с тонким шоколадным корпусом и удивительными начинками.</p>
+        <div class="hero-date"><svg class="icon"><use href="#i-calendar"/></svg><span>10 декабря 2026</span><span class="date-divider"></span><span>13:00–16:00</span></div>
+        <p class="hero-location"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>г. Кукмор, ул. Ленина, д. 34<br>Кафе «Вершина»</span></p>
+        <a class="button hero-cta" href="#registration">Записаться на мастер-класс</a>
+        <p class="hero-note">1 500 ₽ за участие <span>·</span> Демо-регистрация без оплаты</p>
+      </div>
+      <div class="hero-art">
+        <img class="hero-photo" src="images/hero.png" alt="Корпусные десерты в форме малины, лимона, персика и фисташки; малиновый десерт в разрезе" width="1536" height="1024" fetchpriority="high">
+        <div class="photo-note"><span class="note-flower"><svg><use href="#i-flower"/></svg></span><span>Маленькая форма.<br> Большое искусство.</span></div>
+        <span class="image-caption">Вдохновение для ваших первых десертов</span>
+      </div>
+      <div class="hero-facts">
+        <div><svg class="icon"><use href="#i-pin"/></svg><span>Очный мастер-класс<small>Встречаемся в кафе «Вершина»</small></span></div>
+        <div><svg class="icon"><use href="#i-clock"/></svg><span>3 часа погружения<small>От ингредиентов до подачи</small></span></div>
+        <div><svg class="icon"><use href="#i-whisk"/></svg><span>Можно с нуля<small>Для начинающих и домашних кондитеров</small></span></div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading reveal"><h2 id="about-title">Красивые десерты<br> начинаются с любопытства</h2><p>Необязательно быть профессионалом.<br> Достаточно желания попробовать.</p></div>
+        <div class="audience-grid">
+          <article class="audience-card reveal"><svg><use href="#i-whisk"/></svg><h3>Для начинающих<br> кондитеров</h3><p>Познакомьтесь с основами и сделайте первый шаг.</p></article>
+          <article class="audience-card reveal"><svg><use href="#i-home"/></svg><h3>Для тех, кто любит<br> готовить дома</h3><p>Добавьте немного кондитерского искусства в свою кухню.</p></article>
+          <article class="audience-card reveal"><svg><use href="#i-cake"/></svg><h3>Для кондитеров,<br> которые хотят большего</h3><p>Откройте новые идеи, чтобы расширить ассортимент.</p></article>
+          <article class="audience-card reveal"><svg><use href="#i-star"/></svg><h3>Для тех, кто мечтает<br> создавать как профи</h3><p>Разберитесь, как рождаются десерты профессионального уровня.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="program" aria-labelledby="program-title">
+      <div class="section-heading reveal"><h2 id="program-title">От первой формы<br> до последнего штриха</h2><p>Программа мастер-класса: пять этапов,<br> из которых складывается десерт.</p></div>
+      <div class="program-grid">
+        <article class="program-card reveal"><div class="program-photo"><img src="images/pistachio.png" alt="Фисташковый десерт и орехи — сочетание ингредиентов" loading="lazy" width="1024" height="1024"><span>01</span></div><h3>Инструменты<br> и ингредиенты</h3><p>Разберём необходимый инвентарь, формы и ингредиенты.</p></article>
+        <article class="program-card reveal"><div class="program-photo"><img src="images/chocolate.png" alt="Глянцевый шоколадный десерт" loading="lazy" width="1024" height="1024"><span>02</span></div><h3>Работа<br> с шоколадом</h3><p>Познакомимся с особенностями шоколада и основами создания тонкого корпуса.</p></article>
+        <article class="program-card reveal"><div class="program-photo"><img src="images/cutaway.png" alt="Мусс и ягодная начинка внутри десерта" loading="lazy" width="1024" height="1024"><span>03</span></div><h3>Приготовление<br> начинок</h3><p>Научимся сочетать муссы, ганаши и ягодные начинки.</p></article>
+        <article class="program-card reveal"><div class="program-photo"><img src="images/lemon.png" alt="Лимонный корпусный десерт" loading="lazy" width="1024" height="1024"><span>04</span></div><h3>Сборка<br> десертов</h3><p>Разберём последовательность сборки, охлаждение и извлечение из форм.</p></article>
+        <article class="program-card reveal"><div class="program-photo"><img src="images/peach.png" alt="Персиковый десерт с нежным финишным покрытием" loading="lazy" width="1024" height="1024"><span>05</span></div><h3>Декор<br> и подача</h3><p>Познакомимся с вариантами финишного покрытия и оформления десертов.</p></article>
+      </div>
+    </section>
+
+    <section class="section gallery-section" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="gallery-heading reveal"><h2 id="gallery-title">Красота снаружи.<br> Удивительный вкус внутри.</h2><p>Тонкий корпус, нежная текстура, яркий вкус.<br> Откройте мир десертов, которые хочется рассматривать.</p></div>
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal"><img src="images/raspberry.png" alt="Малиновый десерт в форме крупной красной ягоды" width="1024" height="1024" loading="lazy"><figcaption><span>Малина</span><span>Ягодное настроение</span></figcaption></figure>
+          <figure class="gallery-item reveal"><img src="images/lemon.png" alt="Лимонный десерт с жёлтым бархатистым покрытием" width="1024" height="1024" loading="lazy"><figcaption><span>Лимон</span><span>Солнечный акцент</span></figcaption></figure>
+          <figure class="gallery-item reveal"><img src="images/pistachio.png" alt="Фисташковый десерт нежного зелёного цвета" width="1024" height="1024" loading="lazy"><figcaption><span>Фисташка</span><span>Нежность в деталях</span></figcaption></figure>
+          <figure class="gallery-item reveal"><img src="images/peach.png" alt="Персиковый десерт с розовым румянцем" width="1024" height="1024" loading="lazy"><figcaption><span>Персик</span><span>Бархатное прикосновение</span></figcaption></figure>
+          <figure class="gallery-item reveal"><img src="images/chocolate.png" alt="Глянцевый шоколадный десерт с шоколадным декором" width="1024" height="1024" loading="lazy"><figcaption><span>Шоколад</span><span>Выразительная классика</span></figcaption></figure>
+          <figure class="gallery-item reveal"><img src="images/cutaway.png" alt="Разрез десерта: шоколадный корпус, мусс, ягодная начинка и бисквит" width="1024" height="1024" loading="lazy"><figcaption><span>Самое интересное — внутри</span><span>Гармония текстур</span></figcaption></figure>
+        </div>
+        <p class="gallery-disclaimer">Изображения созданы с помощью ИИ для вдохновения и иллюстрируют эстетику мастер-класса.</p>
+      </div>
+    </section>
+
+    <section class="section container speaker-section" id="speaker" aria-labelledby="speaker-title">
+      <figure class="speaker-photo reveal"><img src="images/olesya-pink.png" alt="Олеся в розовом фартуке с венчиком и кондитерской лопаткой" width="1254" height="1254" loading="lazy"></figure>
+      <div class="speaker-copy reveal"><h2 id="speaker-title">Ваш проводник<br> в мир корпусных<br> десертов</h2><h3>Олеся</h3><p>На мастер-классе Олеся познакомит вас с основными этапами создания корпусных десертов — от подготовки ингредиентов до красивой подачи готового изделия.</p><p class="speaker-signature">Вдохновение начинается с первого шага.</p></div>
+    </section>
+
+    <section class="section results-section" aria-labelledby="results-title">
+      <div class="container results-inner"><div class="reveal"><h2 id="results-title">Чему вы<br> научитесь</h2><p>Знания, с которыми станет понятнее<br> каждый этап работы.</p></div><ul class="results-list reveal"><li><svg><use href="#i-check"/></svg>Подбирать ингредиенты и инструменты</li><li><svg><use href="#i-check"/></svg>Работать с шоколадным корпусом</li><li><svg><use href="#i-check"/></svg>Сочетать разные вкусы и текстуры</li><li><svg><use href="#i-check"/></svg>Готовить начинки</li><li><svg><use href="#i-check"/></svg>Правильно собирать десерты</li><li><svg><use href="#i-check"/></svg>Красиво оформлять готовые изделия</li></ul></div>
+    </section>
+
+    <section class="section container price-section" id="price" aria-labelledby="price-title">
+      <div class="price-intro reveal"><h2 id="price-title">Три часа.<br> Новый взгляд<br> на десерты.</h2><p>Подарите себе время на творчество<br> и знакомство с новым кондитерским искусством.</p><svg class="price-flower"><use href="#i-flower"/></svg></div>
+      <div class="price-card reveal"><h3>Корпусные десерты<br> с нуля</h3><p class="price-card-label">Очный мастер-класс с Олесей</p><div class="price-details"><div><svg class="icon"><use href="#i-calendar"/></svg><span>10 декабря 2026 года</span></div><div><svg class="icon"><use href="#i-clock"/></svg><span>13:00–16:00 · 3 часа обучения</span></div><div><svg class="icon"><use href="#i-pin"/></svg><span>Офлайн · кафе «Вершина»</span></div><div class="venue-detail"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg><span>г. Кукмор, ул. Ленина, д. 34</span></div></div><div class="price-amount">1 500 <span>₽</span></div><a href="#registration" class="button button-light">Хочу на мастер-класс</a><p class="price-note">Демонстрационное мероприятие.<br> Оплата не производится.</p></div>
+    </section>
+
+    <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-inner"><div class="reveal"><h2 id="faq-title">Остались<br> вопросы?</h2><p>Самое важное о мастер-классе.</p></div><div class="faq-list reveal">
+        <details><summary>Подойдёт ли мастер-класс новичкам?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-answer"><p>Да, программа рассчитана в том числе на начинающих.</p></div></details>
+        <details><summary>Нужен ли опыт работы с шоколадом?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-answer"><p>Предварительный опыт не обязателен.</p></div></details>
+        <details><summary>Сколько длится мастер-класс?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-answer"><p>Продолжительность — 3 часа.</p></div></details>
+        <details><summary>В каком формате проходит обучение?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-answer"><p>Очно в кафе «Вершина» по адресу: г. Кукмор, ул. Ленина, д. 34.</p></div></details>
+        <details><summary>Нужно ли оплачивать участие при регистрации?<span class="faq-plus" aria-hidden="true"></span></summary><div class="faq-answer"><p>Нет. Это учебный сайт, регистрация и оплата являются демонстрационными.</p></div></details>
+      </div></div>
+    </section>
+
+    <section class="section container" id="registration" aria-labelledby="registration-title">
+      <div class="registration-panel"><div class="registration-copy reveal"><h2 id="registration-title">Ваш первый шаг<br> в мир корпусных<br> десертов</h2><p>Заполните форму, чтобы пройти демонстрационную регистрацию.</p><div class="registration-meta"><span>10 декабря 2026</span><span>13:00–16:00</span><span>Офлайн · Кукмор</span></div><p class="registration-address">Кафе «Вершина»<br>г. Кукмор, ул. Ленина, д. 34</p><svg class="registration-flower"><use href="#i-flower"/></svg></div>
+        <form id="registration-form" novalidate autocomplete="off" class="reveal">
+          <div class="field"><label for="name">Имя <span aria-hidden="true">*</span></label><input id="name" type="text" required minlength="2" maxlength="80" placeholder="Как к вам обращаться?" autocomplete="off" aria-describedby="name-error"><p class="field-error" id="name-error" aria-live="polite"></p></div>
+          <div class="field"><label for="email">Электронная почта <span aria-hidden="true">*</span></label><input id="email" type="email" required maxlength="254" placeholder="you@example.com" autocomplete="off" autocapitalize="none" spellcheck="false" aria-describedby="email-error"><p class="field-error" id="email-error" aria-live="polite"></p></div>
+          <div class="consent-field"><label class="checkbox-label" for="demo-consent"><input id="demo-consent" type="checkbox" required aria-describedby="consent-error"><span>Я понимаю, что это демо-регистрация <span aria-hidden="true">*</span></span></label><p class="field-error" id="consent-error" aria-live="polite"></p></div>
+          <button class="button form-submit" type="submit">Записаться за 1500 ₽ — демо</button>
+          <p class="form-privacy">Все поля обязательны. Данные не сохраняются и никуда не отправляются. Реальная заявка не создаётся, оплата не списывается.</p>
+          <noscript><p class="noscript-warning">Для демо-регистрации включите JavaScript в настройках браузера. Данные не будут отправлены.</p></noscript>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><div class="footer-top"><a class="brand" href="#home"><svg class="brand-mark"><use href="#i-flower"/></svg><span>Dessert Studio</span></a><nav aria-label="Навигация в подвале"><a href="#about">О мастер-классе</a><a href="#program">Программа</a><a href="#speaker">Спикер</a><a href="#price">Стоимость</a><a href="#faq">FAQ</a><a href="#registration">Регистрация</a></nav></div><div class="footer-bottom"><span>© 2026 Dessert Studio</span><p>Демонстрационный сайт, созданный в рамках учебного проекта.</p><a href="#home">Наверх</a></div></div></footer>
+
+  <dialog id="success-dialog" aria-labelledby="success-title" aria-describedby="success-description"><div class="success-content"><div class="success-icon"><svg><use href="#i-check"/></svg></div><h2 id="success-title">Поздравляем!</h2><p id="success-description">Демо-регистрация успешно завершена.</p><dl class="success-details"><div><dt>Мастер-класс</dt><dd>Корпусные десерты с нуля</dd></div><div><dt>Дата</dt><dd>10 декабря 2026 года</dd></div><div><dt>Время</dt><dd>13:00–16:00</dd></div><div><dt>Формат</dt><dd>Офлайн-мастер-класс</dd></div><div><dt>Место</dt><dd>Кафе «Вершина»<br>г. Кукмор, ул. Ленина, д. 34</dd></div><div><dt>Стоимость</dt><dd>1500 ₽</dd></div></dl><p class="success-disclaimer">Это учебная регистрация. Реальная заявка не отправлена, оплата не списана.</p><button type="button" id="close-success" class="button">Вернуться на сайт</button><p class="repeat-note">После закрытия форму можно заполнить снова.</p></div></dialog>
+</body>
+</html>
